@@ -1,0 +1,33 @@
+<vbox id="research-link-manager-preferences-pane"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      onload="ResearchLinkManagerPreferences.init()">
+  <linkset>
+    <html:link rel="localization" href="research-link-manager.ftl" />
+  </linkset>
+  <groupbox>
+    <label><html:h2 data-l10n-id="research-link-manager-pref-title" /></label>
+    <html:div style="display:grid; grid-template-columns: 150px minmax(320px, 1fr); gap:12px; align-items:center;">
+      <html:label for="research-link-manager-root" data-l10n-id="research-link-manager-pref-root" />
+      <html:input id="research-link-manager-root" type="text" />
+
+      <html:label for="research-link-manager-mode" data-l10n-id="research-link-manager-pref-mode" />
+      <html:select id="research-link-manager-mode">
+        <html:option value="auto" data-l10n-id="research-link-manager-pref-auto" />
+        <html:option value="hard" data-l10n-id="research-link-manager-pref-hard" />
+        <html:option value="symbolic" data-l10n-id="research-link-manager-pref-symbolic" />
+      </html:select>
+
+      <html:span />
+      <html:label>
+        <html:input id="research-link-manager-startup" type="checkbox" />
+        <html:span data-l10n-id="research-link-manager-pref-startup" />
+      </html:label>
+    </html:div>
+    <hbox style="margin-top: 16px; gap: 8px;">
+      <button id="research-link-manager-apply" data-l10n-id="research-link-manager-pref-apply" />
+      <button id="research-link-manager-sync" data-l10n-id="research-link-manager-pref-sync" />
+    </hbox>
+    <html:p id="research-link-manager-status" role="status" style="min-height: 1.4em;" />
+  </groupbox>
+</vbox>

@@ -1,0 +1,13 @@
+research-link-manager-menu-sync =
+    .label = Sync / Repair Research Links
+research-link-manager-menu-settings =
+    .label = Research Link Manager Settings
+research-link-manager-pref-title = Research Link Manager
+research-link-manager-pref-root = Research Root
+research-link-manager-pref-mode = Link mode
+research-link-manager-pref-auto = Auto (hard link on the same drive)
+research-link-manager-pref-hard = Hard link
+research-link-manager-pref-symbolic = Symbolic link
+research-link-manager-pref-startup = Sync on Zotero startup
+research-link-manager-pref-apply = Apply and Sync
+research-link-manager-pref-sync = Sync / Repair Now

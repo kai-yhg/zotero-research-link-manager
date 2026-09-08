@@ -1,0 +1,20 @@
+# Local diagnostics and generated release artifacts
+work/
+outputs/
+
+# Packaged builds
+*.xpi
+*.zip
+
+# Zotero and database state
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+research-link-manager-state.json*
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/

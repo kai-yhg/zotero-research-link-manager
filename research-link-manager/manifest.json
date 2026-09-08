@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Research Link Manager",
+  "version": "0.1.7",
+  "description": "Mirrors Zotero Collections as a filesystem view of PDF links.",
+  "author": "Research Link Manager contributors",
+  "applications": {
+    "zotero": {
+      "id": "research-link-manager@local",
+      "update_url": "https://example.invalid/research-link-manager/updates.json",
+      "strict_min_version": "9.0",
+      "strict_max_version": "9.0.*",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}

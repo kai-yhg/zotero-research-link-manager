@@ -1,0 +1,13 @@
+research-link-manager-menu-sync =
+    .label = 同步 / 修复 Research Links
+research-link-manager-menu-settings =
+    .label = Research Link Manager 设置
+research-link-manager-pref-title = Research Link Manager
+research-link-manager-pref-root = Research 根目录
+research-link-manager-pref-mode = 链接模式
+research-link-manager-pref-auto = 自动（同盘使用硬链接）
+research-link-manager-pref-hard = 硬链接
+research-link-manager-pref-symbolic = 符号链接
+research-link-manager-pref-startup = Zotero 启动时同步
+research-link-manager-pref-apply = 应用并同步
+research-link-manager-pref-sync = 立即同步 / 修复

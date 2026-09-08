@@ -1,0 +1,9 @@
+{
+  "name": "zotero-research-link-manager",
+  "version": "0.1.7",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1"
+  }
+}
